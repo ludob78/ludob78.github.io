@@ -1,0 +1,35 @@
+.center-content{
+    /* text-align: center !important; */
+    /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* display: -webkit-box;   OLD - iOS 6-, Safari 3.1-6, BB7  */
+  /* display: -ms-flexbox;   TWEENER - IE 10  */
+  /* display: -webkit-flex;  NEW - Safari 6.1+. iOS 7.1+, BB10  */
+  /* display: flex;         NEW, Spec - Firefox, Chrome, Opera */
+}
+td.center-content{
+    width: 25%;
+    text-align: center;
+}
+td>div{
+    width: 100%;
+    color: aqua;
+}
+.fixed-action-btn{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.fixed-action-btn.horizontal ul {
+    text-align: right;
+    right: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 100%;
+    left: auto;
+    width: 500px;
+}

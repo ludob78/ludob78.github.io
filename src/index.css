@@ -1,0 +1,15 @@
+@font-face{
+  font-family: 'Burbank';
+  src:url("./fonts/BurbankBigCondensed-Bold.woff")format('woff');
+  src:url("./fonts/BurbankBigCondensed-Bold.woff2")format('woff2');
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family:Burbank, sans-serif ;
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
